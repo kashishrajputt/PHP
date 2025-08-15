@@ -8,12 +8,14 @@
 </head>
 <body>
      <?php
-     $a = 120;
+     $a = 80;
      $b = 80;
      if($a > $b)
         echo $a." is greater than ".$b;
-     else
+     elseif($b>$a)
         echo $b." is greater than ".$a;
+     else
+        echo $b." is equal to ".$a;
      ?>
 </body>
 </html>
