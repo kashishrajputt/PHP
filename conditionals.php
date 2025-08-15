@@ -9,15 +9,11 @@
 <body>
      <?php
      $a = 120;
-     $b = "holla";
-     $c = 12.34;
-     $d = TRUE;
-     $ar = array("HI", 100,20);
-     $e = NULL;
-     echo $a." ".$b." ".$c." ".$d." ".$e;
-     echo "<br>";
-     define('PI',3.14);
-     echo PI;
+     $b = 80;
+     if($a > $b)
+        echo $a." is greater than ".$b;
+     else
+        echo $b." is greater than ".$a;
      ?>
 </body>
 </html>
