@@ -8,12 +8,12 @@
 </head>
 <body>
      <?php
-     function display(){
-        echo "<br> this is a function";
+     function sum($a,$b){
+        $c = $a+$b;
+        echo $c;
      }
-     
-     echo " <br> end program";
-     display();
+     sum(10,60);
+
      ?>
 </body>
 </html>
